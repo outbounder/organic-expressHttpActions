@@ -4,6 +4,11 @@ The Organelle is responsible for mounting Http Routes to the express app wrapped
 
 It is roughly described in [wisdom about ExpressHttpActions](http://wisdom.camplight.net/wisdom/5110e488c489a7ef6d000043/Organic---ExpressHttpActions) 
 
+* `reactOn`: String, default `HttpServer`.
+
+  *otional* value if set will indicate the chemical type which will carry 
+  Express App instance in its data property.
+
 * `mount`: String
 
   *optional* value to be used for prefixing all routes. Useful for mounting all actions found to specific root url

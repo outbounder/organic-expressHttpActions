@@ -59,9 +59,7 @@ describe("ExpressHttpActions", function(){
     });
     plasma.emit(new Chemical({
       type: "HttpServer",
-      data: {
-        app: mockupApp
-      }
+      data: mockupApp
     }));
   });
 

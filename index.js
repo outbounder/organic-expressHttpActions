@@ -22,8 +22,8 @@ module.exports = function ExpressHttpActions(plasma, config){
   
   this.config = config;
 
-  this.on("HttpServer", function(chemical){
-    var app = chemical.data.app;
+  this.on(this.config.reactOn || "HttpServer", function(chemical){
+    var app = chemical.data;
     if(config.actionHelpers) {
       Context.scan({
         root: config.actionHelpers,
