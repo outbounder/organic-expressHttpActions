@@ -43,3 +43,7 @@ It is roughly described in [wisdom about ExpressHttpActions](http://wisdom.campl
 # incoming | HttpServer
 
 * data - ExpressHttpServer instance
+
+# outgoing | `ExpressHttpActions`
+
+Send once actions are mounted.
